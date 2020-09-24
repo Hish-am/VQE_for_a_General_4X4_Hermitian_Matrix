@@ -5,10 +5,12 @@ This is part of a task required for the "qosf QC Mentorship program". I chose to
 
 ## GUIDE:
 
+Optimal viewing is achieved if the reader downloads the code themselves and views it on their PC. 
+
 This is done using Jupyter Notebook, so please run the cells in order. It is also preferable that one run the last cell too for aesthetics, it formats the notebook quite nicely.
 
 ## Aim of this code:
-Our goal is to find the lowest eigenvalue of a given matrix. In terms of quantum hardware, this translates to the lowest energy $E_0$ of some Hamiltonian.
+Our goal is to find the lowest eigenvalue of a given matrix. In terms of quantum hardware, this translates to the lowest energy E_0 of some Hamiltonian.
 ### 
 ## Steps:
 #### 
