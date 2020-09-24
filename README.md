@@ -5,7 +5,7 @@ This is part of a task required for the "qosf QC Mentorship program". I chose to
 
 ## GUIDE:
 
-Optimal viewing is achieved if the reader downloads the code themselves and views it on their PC. 
+Optimal viewing is achieved if the reader downloads the code themselves and views it on their PC. The Github viewer seems to not be the best sorry :') 
 
 This is done using Jupyter Notebook, so please run the cells in order. It is also preferable that one run the last cell too for aesthetics, it formats the notebook quite nicely.
 
@@ -26,7 +26,25 @@ Our goal is to find the lowest eigenvalue of a given matrix. In terms of quantum
 ### 
 3. Fine tune the ansatz circuit to find the lowest possible energy of this Hamiltonian. This is the classical optimization part, and is achievable through classical optimization techniques aimed at fine tuning the parameters of the ansatz. This step generates a modified ansatz circuit bringing us a step closer to the optimized trial wavefunction which approximates the ground state of the Hamiltonian.
 #### 
-On obtainig the ground state energy, we have ourselves the lowest eigenvalue of the Hamiltonian, which corresponds to the lowest eigenvalue of its matrix. 
+On obtainig the ground state energy, we have ourselves the lowest eigenvalue of the Hamiltonian, which corresponds to the lowest eigenvalue of its matrix.
+
+# KEY RESULTS FOR TASK 4 :
+
+The Qubit String of the matrix given in the task:  
+  
+![Qubit string](https://github.com/Hish-am/VQE_for_a_General_4X4_Hermitian_Matrix/blob/master/Sneak%20peek%20at%20results/Qubit_string.JPG)  
+
+The Circuit Ansatz with 8 paramterization angles:  
+
+![Ansatz](https://github.com/Hish-am/VQE_for_a_General_4X4_Hermitian_Matrix/blob/master/Sneak%20peek%20at%20results/ansatz_circuit.JPG)  
+
+The Final result after optimization to get the lowest eigenvalue of the matrix, which should be -1:  
+
+![Lowest Eigenvalue](https://github.com/Hish-am/VQE_for_a_General_4X4_Hermitian_Matrix/blob/master/Sneak%20peek%20at%20results/Lowest_Eigenvalue.JPG)  
+
+
+
+
 
 
 
