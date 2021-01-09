@@ -1,8 +1,6 @@
 # VQE_for_a_General_4X4_Hermitian_Matrix
 My VQE code, built using Qiskit, that solves for the lowest eigenvalue of a General 4X4 Hermitian matrix
 
-This is part of a task required for the "qosf QC Mentorship program". I chose to do Task 4, which require we build a VQE eigensolver from scratch for a given matrix. I decided to extend this to all Hermitian 4X4 Matrices.
-
 ## GUIDE:
 
 Optimal viewing is achieved if the reader downloads the code themselves and views it on their PC. The Github viewer seems to not be the best sorry :') 
@@ -28,7 +26,7 @@ Our goal is to find the lowest eigenvalue of a given matrix. In terms of quantum
 #### 
 On obtainig the ground state energy, we have ourselves the lowest eigenvalue of the Hamiltonian, which corresponds to the lowest eigenvalue of its matrix.
 
-# KEY RESULTS FOR TASK 4 :
+# KEY RESULTS :
 
 The Qubit String of the matrix given in the task:  
   
