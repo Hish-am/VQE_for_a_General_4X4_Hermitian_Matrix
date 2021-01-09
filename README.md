@@ -22,7 +22,7 @@ Our goal is to find the lowest eigenvalue of a given matrix. In terms of quantum
 #### 
 ### Classical part:
 ### 
-3. Fine tune the ansatz circuit to find the lowest possible energy of this Hamiltonian. This is the classical optimization part, and is achievable through classical optimization techniques aimed at fine tuning the parameters of the ansatz. This step generates a modified ansatz circuit bringing us a step closer to the optimized trial wavefunction which approximates the ground state of the Hamiltonian.
+4. Fine tune the ansatz circuit to find the lowest possible energy of this Hamiltonian. This is the classical optimization part, and is achievable through classical optimization techniques aimed at fine tuning the parameters of the ansatz. This step generates a modified ansatz circuit bringing us a step closer to the optimized trial wavefunction which approximates the ground state of the Hamiltonian.
 #### 
 On obtainig the ground state energy, we have ourselves the lowest eigenvalue of the Hamiltonian, which corresponds to the lowest eigenvalue of its matrix.
 
